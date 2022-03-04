@@ -1,0 +1,31 @@
+ErrorDocument 404 /tysla_solutions.php
+ErrorDocument 403 /tysla_solutions.php
+RewriteEngine on
+
+#RewriteCond %{HTTPS} off
+#RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+#RewriteCond %{HTTP_HOST} !^www\. [NC]
+#RewriteRule .* https://www.%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+#Redirect /gadgets https://www.gadgets.apise.shop
+RewriteRule ^J9sb38Dl0IwxJs3jSjopQ20X/?$ a/add_to.cart.php
+RewriteRule ^X02QpojSj3sJxwI0lD83bs9J/?$ a/remove_fromc.php
+RewriteRule ^dsb/?$ a/cart_a.php
+RewriteRule .*SUhkJnIos/?$ load_data.php
+RewriteRule ^sUebY8uebsdb/?$ a/products.php
+RewriteRule ^Mu3exb8o/?$ search_pro_ces.php
+RewriteRule ^Kdbhb78sJvsdvg/?$ a/cc.php
+RewriteRule ^Uhd9h/?$ a/dev.php
+RewriteRule ^buntu/?$ a/t.php
+RewriteRule ^buntus/?$ a/ts.php
+RewriteRule ^ccpn/?$ a/tss.php
+RewriteRule ^change/?$ a/change.php
+RewriteRule ^changes/?$ a/changes.php
+RewriteRule ^coupon/?$ a/coup.php
+RewriteRule ^AuisdGyuTA780we989e89/?$ a/ucoup.php
+RewriteRule ^checkout/?$ a/che.ck.out.php
+RewriteRule .*checkout.html/?$ xhec.php
+RewriteRule ^product/ view_product.php
+RewriteRule ^o.html/?$ a/ord.php
+RewriteRule ^categories/ view.cat.php
+RewriteRule .*contact.py/?$ about/contact.php
+Options -Indexes
